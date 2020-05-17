@@ -11,7 +11,7 @@ public class EurekaMainApp extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(
       SpringApplicationBuilder builder) {
-        return builder.sources(WarInitializerApplication.class);
+        return builder.sources(EurekaMainApp.class);
     {
 
 	public static void main(String[] args) {
